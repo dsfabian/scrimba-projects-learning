@@ -1,0 +1,28 @@
+notes:
+when using innerHTML, do it like this - less expensive to update once at end than
+-------------------------------------
+
+    let listItems = ""
+    for (let i = 0; i < myLeads.length; i++) {
+        // 2. Add the item to the listItems variable instead of the ulEl.innerHTML
+        listItems += "<li>" + myLeads[i] + "</li>"
+    }
+    // 3. Render the listItems inside the unordered list using ulEl.innerHTML
+    ulEl.innerHTML = listItems
+
+
+making chrome extensions
+------------------------
+in root directory, create manifest.json file with below info
+
+set min-width on body tag to set the smallest it will pop up
+
+{
+    "manifest_version": 3,
+    "version": "1.1",
+    "name": "Leads tracker",
+    "action": {
+        "default_popup": "index.html",
+        "default_icon": "icon.png"
+    }
+}

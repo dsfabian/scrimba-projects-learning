@@ -1,0 +1,146 @@
+
+
+.container {
+    border: 8px solid #016a26;
+    height: 260px;
+    display:flex;
+    justify-content: center; /* horizontal alignment */
+    align-items: center; /* vertical alignment */
+    flex-direction: column; /* display as a column or a row, order of other props switches when 'column' */
+}
+.item {
+    width: 50px;
+    height: 50px;
+    margin: 2px;
+    padding: 10px;
+    font-size: 50px;
+    border: 2px solid black;
+    background: linear-gradient(#14463d, #016a26);
+}
+
+
+
+
+/*
+=====================
+Centering Information
+=====================
+*/
+
+.bigblock-div {
+    /*margin-left: auto;*/
+    /*margin-right: auto;*/
+    margin: 0px auto;
+    width: 80px;
+    background: lightblue;
+    padding: 20px;
+
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+.bigblock-div:hover {
+    background-color: red;;
+}
+
+/* 
+============
+Flexbox Info 
+============
+*/
+.medwrapper {
+    display: flex;
+    justify-content: space-between;
+    /* center, end, start, space-around */
+}
+.rxwrapper {
+    display: flex;
+    justify-content: center;
+    /* center, end, start, space-around */
+}
+.drugclass-div {
+    text-align: center;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+}
+.displayrow-div {
+    display: flex;
+    justify-content: space-around;
+}
+
+/*
+Background Images
+*/
+.image-div {
+    width:100px;
+    height: 100px;
+    background-image: url("food-unsplash.jpg");
+    background-size: cover;
+    color: white;
+}
+
+/*
+Bringing In Google Fonts
+*/
+.font-div {
+    font-family: 'Orbitron', sans-serif;
+}
+.font-div > button {
+    font-family: inherit;
+}
+
+#round-img {
+    border-radius: 50%;
+}
+
+
+/* Shadow on text */
+#shadow {
+    text-shadow: 5px 5px 5px black; /* first is the rightward direction, 2nd is downward, 3rd blur factor*/
+    font-size: 80px;
+    color: red;
+}
+
+#all {
+    text-shadow: 1px 1px 1px black;
+    color: white;
+    font-size: 80px;
+}
+
+#only_blur {
+    color: white;
+    text-shadow: 0px 0px 1px black;
+    font-size: 80px;
+}
+
+
+
+
+
+
+
+
+a {
+    color: red;
+}
+
+input {
+    display: block; /* transforms from multiple on line to each having their own line  */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.inputblock-div {
+    margin-top: 40px;
+}
+
+.username-input {
+    background-color: lightgray;
+    padding: 10px;
+}
+
+.password-input {
+    background-color: lightblue;
+}
+

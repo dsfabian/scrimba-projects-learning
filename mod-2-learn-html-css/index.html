@@ -1,0 +1,183 @@
+<!doctype html>
+<!-- http://127.0.0.1:5500/index.html -->
+<html lang="en">
+    <head>
+        <title>Cool Website</title>
+        <link rel="stylesheet" href="mystyle.css">
+        <!-- used to import fonts from google fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;800&display=swap" rel="stylesheet">
+    </head>
+    <body>
+
+        <h1>HTML tables</h1>
+        <table>
+            <caption>Drugs and Costs</caption>
+            <thead>
+                <tr>
+                    <th>Class</th>
+                    <th>Drug</th>
+                    <th>Cost</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>biguanide</td>
+                    <td>Metformin</td>
+                    <td>$</td>
+                </tr>
+                <tr>
+                    <td>SGLT-2i</td>
+                    <td>Jardiance</td>
+                    <td>$$</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">GLP-1RA</td>
+                    <td>Zepbound</td>
+                    <td>$$$</td>
+                </tr>
+                <tr>
+                    <td>Ozempic</td>
+                    <td>$$$</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="2">Average</td>
+                    <td>$$</td>
+                </tr>
+            </tfoot>
+        </table>
+        
+        <h1>Different forms of flexbox</h1>
+        <div class="container">
+            <div class="item">🥽</div>
+            <div class="item">🧪</div>
+            <div class="item">🧫</div>
+        </div>
+
+
+        
+        <h1>Centering Information + HOVER pseudoclass</h1>
+
+        <div class="bigblock-div">
+            this is me
+        </div>
+        
+        <h1>Flexbox Info</h1>
+
+        <h2>Basic Flexbox</h2>
+        <div class="medwrapper">
+            <div class="drugclass-div">Diabetes</div>
+            <div class="drugclass-div">HTN</div>
+            <div class="drugclass-div">Heart Failure</div>
+        </div>
+
+        <div class="rxwrapper">
+            <div class="drugclass-div">Metformin</div>
+            <div class="drugclass-div">Lisinopril</div>
+            <div class="drugclass-div">Metoprolol</div>
+        </div>
+
+        <h2>Flexbox with blocks of elements inside</h2>
+        <div class="displayrow-div">
+            <div>
+                <h3>Diabetes</h3>
+                <ul>
+                    <li>Metformin</li>
+                    <li>Mounjaro</li>
+                    <li>insulin</li>
+                    <li>Jardiance</li>
+                </ul>
+            </div>
+            <div>
+                <h3>Hypertension</h3>
+                <ul>
+                    <li>Lisinopril</li>
+                    <li>Metoprolol</li>
+                    <li>Losartan</li>
+                </ul>
+            </div>
+            <div>
+                <h3>Hyperlipidemia</h3>
+                <ul>
+                    <li>Simvastatin</li>
+                    <li>Atorvastatin</li>
+                    <li>Rosuvastatin</li>
+                </ul>
+            </div>
+        </div>
+        
+        <h1>Background Images</h1>
+        <div class="image-div">
+            hello
+        </div>
+
+        <h1>Rounded Images</h1>
+        <img src="food-unsplash.jpg" id="round-img">
+
+        <div class="font-div">
+            <h1> Bringing in Google Fonts</h1>
+            Special rules are needed for buttons, check the CSS <br>
+            <button>Hello there, please click</button>
+        </div>
+        
+
+        <h1 id="shadow">Shadow on text</h1>
+
+        <h1 id="all">Shadow with 1px all</h1>
+        <h1 id="only_blur">Shadow with no offset but blur</h1>
+
+
+        
+
+
+
+
+
+        <br><br>
+        
+        <h1>this new site is really cool</h1>
+        <h2>now it's even cooler</h2>
+        <h3>even better</h3>
+
+        <button>Click Me!</button>
+        <div class="inputblock-div">
+            <input class="username-input" type="text" placeholder="Enter username">
+            <input class="password-input" type="password" placeholder="Enter password">
+        </div>
+        
+        <br><br>
+        <a href="otherpage.html">Here is a link</a>
+        <br>
+        <a href="otherpage.html" target="_blank">Here is a link that opens in a new tab</a>
+    
+        <br><br>
+        the best foods are:
+        <ol>
+            <li>Italian</li>
+            <li>Mexican</li>
+            <li>Asian</li>
+        </ol>
+
+        <br><br>
+        <dl>
+            <dt>Basic type</dt>
+            <dd>one term and one definition</dd>
+
+            <dt>One term here</dt>
+            <dd>a first definition</dd>
+            <dd>but there's also another</dd>
+
+            <dt>First term</dt>
+            <dt>2nd term</dt>
+            <dd>but they have one description</dd>            
+        </dl>
+
+        <br><br>
+
+        
+
+    </body>
+</html>

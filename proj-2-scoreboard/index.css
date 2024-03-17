@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    padding: 30px;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    border: 2px solid black;
+    height: 350px;
+    width: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: #1B244A;
+}
+
+.score-display {
+    border: 2px solid black;
+    height: 120px;
+    width: 155px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    background: #080001;
+}
+
+.score-text {
+    color: #F94F6D;
+    font-family: 'Orbitron';
+    font-size: 60pt;
+}
+
+.scoreboard-side {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.point-btn {
+    height: 45px;
+    width: 45px;
+    background: #1B244A;
+    border: 2px solid #9AABD8;
+    color: #9AABD8;
+    border-radius: 8px;
+    font-family: 'Orbitron';
+}
+
+.team-display {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25pt;
+}
+
+.button-group {
+    display: flex;
+    justify-content: space-evenly;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        
+       <div class="counter-div">
+        <h1>Number of clicks (Processing events)</h1>
+        <h2 id="counter">0</h2>
+        <!--<button id="increment-btn" onclick="increment()"></button>>INCREMENT</button>-->
+        <button id="increment-btn">INCREMENT</button>
+        
+       </div>
+
+       <div class="counter-div">
+        <h1>Adding HTML elements dynamically</h1>
+        <input type="text" id="newelement-input">
+        <button id="newelement-btn">Add New Item</button>
+        <ul id="element-list"></ul>
+       </div>
+       
+
+       <div class="counter-div">
+        <h1>Saving things to local storage</h1>
+        <input type="text" id="key-input">
+        <input type="text" id="value-input">
+        <br>
+        <button id="localstorage-save-btn">Click to save in local storage</button><br>
+        <button id="localstorage-clear-btn">Clear LocalStorage</button><br>
+        <button id="localstorage-display-btn">See Local Value</button><br>
+        <h1 id="display-h1">placeholder</h1>
+       </div>
+
+       <div class="counter-div">
+        <h1>Saving Arrays to Local Storage and Pulling Them Out</h1>
+        <input type="text" id="array-add-input"><button id="array-add-btn">Add to Array</button>
+        <br>
+        <button id="save-array-btn">Save Array to Local Storage</button><br>
+        <button id="parse-array-btn">Pull Array from Local Storage</button>
+        <h1 id="parse-array-h1">placeholder</h1>
+       </div>
+
+
+       <div class="counter-div">
+        <h1>Example of template string (like python fstrings)</h1>
+        <input type="text" id="name-input">
+        <input type="text" id="age-input">
+        <button id="showtemplate-btn">See the String</button>
+        <h1 id="displaytemplate-h1">placeholder</h1>
+       </div>
+
+
+       <script src="index.js"></script>
+
+    </body>
+</html>
