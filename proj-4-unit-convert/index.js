@@ -4,12 +4,12 @@
 1 kilogram = 2.204 pound
 */
 
-unitNumInput = document.getElementById('unit-number-input')
-convertBtn = document.getElementById('convert-btn')
+const unitNumInput = document.getElementById('unit-number-input')
+const convertBtn = document.getElementById('convert-btn')
 
-lengthParagraph = document.getElementById('length-p')
-volumeParagraph = document.getElementById('volume-p')
-massParagraph = document.getElementById('mass-p')
+const lengthParagraph = document.getElementById('length-p')
+const volumeParagraph = document.getElementById('volume-p')
+const massParagraph = document.getElementById('mass-p')
 
 convertBtn.addEventListener('click', function(){
     
